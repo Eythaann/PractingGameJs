@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  overflow: hidden;
+}
+#container {
+  background-color: #111;
+  width: 100vw;
+  height: 100vh;
+}
+
+#player {
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.ghost {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+#ghost1 {
+  background-color: cyan;
+}
+#ghost2 {
+  background-color: red;
+}
+#ghost3 {
+  background-color: blue;
+}
+#ghost4 {
+  background-color: green;
+}
+#ghost5 {
+  background-color: hotpink;
+}
